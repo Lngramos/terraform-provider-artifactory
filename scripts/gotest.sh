@@ -2,7 +2,7 @@
 
 export ARTIFACTORY_USERNAME=admin
 export ARTIFACTORY_PASSWORD=password
-export ARTIFACTORY_URL=http://localhost:8080/
+export ARTIFACTORY_URL=http://localhost:8081/artifactory/
 
 ROOT_DIR=$(pwd)/
 COVERAGE_PATH=${ROOT_DIR}/coverage.txt

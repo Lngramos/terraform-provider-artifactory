@@ -1,1 +1,4 @@
 .idea
+/test-artifactory-data
+/profile.out
+/coverage.txt

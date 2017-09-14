@@ -151,7 +151,8 @@ func NewClient(username string, pass string, url string) Client {
 	}
 }
 
-// Ping calls the system to verify connectivity
+//
+// calls the system to verify connectivity
 func (c clientConfig) Ping() error {
 	resp, err := c.execute("GET", "system/ping", nil)
 

@@ -14,6 +14,7 @@ setup-test-artifactory:
 
 teardown-test-artifactory:
 	docker-compose down
+	rm -rf test-artifactory-data
 
 fmt:
 	gofmt -w $(GOFMT_FILES)
